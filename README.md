@@ -11,7 +11,7 @@ I implemented this code specifically for use with a ruler dispenser. But it coul
 
 
 
-**Dependencies**
+## **Dependencies**
 
 - OpenCV 2
 - Numpy
@@ -19,7 +19,7 @@ I implemented this code specifically for use with a ruler dispenser. But it coul
 
 
 
-**Usage**
+## **Usage**
 
 To actually have this work, you need to make sure that you:
 
@@ -31,7 +31,7 @@ To actually have this work, you need to make sure that you:
 
 
 
-**Working Theory**
+## **Working Theory**
 
 The script uses a standard Haar cascade to detected faces and smiles. You could technically swap out the cascades used to detect all manner of other things, or go depend on a CNN instead for more robust detection.
 
@@ -65,7 +65,7 @@ counter -= (1 + (counter ** 1.500) / 108.5) + 0.00075 * DIFFICULTY_FACTOR
 
 
 
-**User Configurable Parameters**
+## **User Configurable Parameters**
 
 Just change these few parameters located near the top of the Python script 
 
