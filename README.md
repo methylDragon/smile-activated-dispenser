@@ -11,10 +11,20 @@ I implemented this code specifically for use with a ruler dispenser. But it coul
 
 
 
+#### Computer Vision Portion
+[![Click for video!](./assets/1531374554645.png)](https://youtu.be/XJxwvv3Soc4)
+
+
+
+#### Dispenser and Actuator Operation
+
+[![Click for video!](./assets/1531380458447.png)](https://youtu.be/b2lRIHzhSa0)
+
+
+
 ## **Dependencies**
 
 - OpenCV 2
-- Numpy
 - pygame
 
 
@@ -72,7 +82,7 @@ Just change these few parameters located near the top of the Python script
 - **DEBUG**
   - Print DEBUG info
 - **SOUND_ON**
-  - Play a celebratory sound when the dispenser is triggered
+  - Play a celebratory sound when the dispenser is triggered (MLG HORNS)
 - **SERIAL_ON**
   - Put this to True if you have a connected Arduino
 - **DIFFICULTY_FACTOR**
